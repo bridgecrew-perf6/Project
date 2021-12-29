@@ -1,0 +1,20 @@
+.fundraisers{
+    width: 100%;
+    margin: auto;
+    color: black;
+    padding: 50px 0px 0px 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 0px;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+.ref{
+    margin-left: 1070px;
+    font-size: 20px;
+}
+.h4{
+    margin-top: 120px;
+    text-align: center;
+    color: grey;
+}

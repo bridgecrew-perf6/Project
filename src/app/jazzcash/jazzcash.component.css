@@ -1,0 +1,25 @@
+.number{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 55px;
+    width: 650px;
+    border-radius: 20px;
+    border-color: whitesmoke;
+    border-style: groove;
+    padding: 0 22px;
+    color: #555;
+    margin-left: -140px;
+    margin-top: 80px;
+}
+.donate{
+    margin-left: 60px;
+    border-radius: 20px;
+    border-color: rgb(76, 211, 76);
+    padding-right: 280px;
+    padding-left: 280px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: rgb(76, 211, 76); 
+    margin-top: -20px;  
+}

@@ -1,0 +1,158 @@
+.reqform{
+     width: 100%;
+     background-color: #FFF;
+     margin: auto;
+     color: grey;
+     padding: 10px 0px 10px 0px;
+     text-align: center;
+     border-radius: 15px 15px 0px 0px; 
+        }
+
+.main{
+     background-color: white;
+     width: 100%;
+     margin: 0;
+    }
+    form{
+        padding: 10px;
+        }
+.form{
+    margin-top: 30px;
+    width: 125px;
+}
+.Title{
+        position: relative;
+        left: 200px;
+        top: -37px;
+        line-height: 55px;
+        width: 750px;
+        border-radius: 20px;
+        border-color: whitesmoke;
+        border-style: groove;
+        padding: 0 22px;
+        font-size: 16px;
+        color: #555;
+        margin-left: -100px;
+        margin-top: 40px;
+    }
+.amount{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 55px;
+    width: 220px;
+    border-radius: 20px;
+    border-color: whitesmoke;
+    border-style: groove;
+    pad: 0 22px;
+    font-size: 15px;
+    color: #555;
+    margin-left: -100px;
+    margin-top: 40px;
+    }
+.desc{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 200px;
+    width: 750px;
+    border-radius: 20px;
+    border-color: whitesmoke;
+    border-style: groove;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    margin-left: -100px;
+    margin-top: 40px;
+    }
+.dlimit{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 50px;
+    width: 350px;
+    border-radius: 15px;
+    border-color: whitesmoke;
+    border-style: groove;
+    pad: 0 22px;
+    font-size: 16px;
+    color: #555;
+    margin-left: -180px;
+    margin-top: 40px;
+    }
+.number{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 50px;
+    width: 350px;
+    border-radius: 15px;
+    border-color: whitesmoke;
+    border-style: groove;
+    pad: 0 22px;
+    font-size: 16px;
+    margin-left: -180px;
+    color: #555;   
+    margin-top: 40px; 
+    }
+.address{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 100px;
+    width: 350px;
+    border-radius: 15px;
+    border-color: whitesmoke;
+    border-style: groove;
+    pad: 0 22px;
+    font-size: 16px;
+    color: #555;
+    margin-left: -180px;
+    margin-top: 40px;
+    }
+.ID{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 50px;
+    width: 350px;
+    border-radius: 15px;
+    border-color: whitesmoke;
+    border-style: groove;
+    pad: 0 22px;
+    font-size: 16px;
+    color: #555;
+    margin-left: -180px;
+    margin-top: 40px;
+    }
+.image{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 100px;
+    width: 350px;
+    border-radius: 20px;
+    border-color: whitesmoke;
+    border-style: groove;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    margin-left: -180px;
+    margin-top: 40px;
+    }
+.box{
+    border-radius: 15px;
+    border-color: whitesmoke;
+    border-style: groove;
+    margin-top: 30px;
+    padding-bottom: 100px;
+    }
+.center{
+    margin: 0;
+    position: absolute;
+    transform: translate(150%, 10%);
+    }
+
+
+
+
