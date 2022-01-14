@@ -3,5 +3,21 @@
 
 <div class="container">
     <h4 class="h4">Popular Fundraisers</h4>
-
 </div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 mt-5" *ngFor="let info of information">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src={{info.img}} alt="image" width="50">
+                <div class="card-body">
+                    <h3>{{info.id}}</h3>
+                    <h5>{{info.name}}</h5>
+                    <h6>{{info.city}}</h6>
+                    <a routerLink="details" class="btn btn-primary">Click for Details</a>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+    

@@ -7,19 +7,21 @@ import { HomeComponent } from './home/home.component';
 import { JazzcashComponent } from './jazzcash/jazzcash.component';
 import { LoginComponent } from './login/login.component';
 import { ProfileComponent } from './profile/profile.component';
+import { ReqdetailsComponent } from './reqdetails/reqdetails.component';
 import { SignupComponent } from './signup/signup.component';
 
 const routes: Routes = [
-  {path: '', redirectTo: 'login', pathMatch: 'full'},
+  {path: '', redirectTo: 'home', pathMatch: 'full'},
   {path: 'login', component: LoginComponent},
   {path: 'signup', component: SignupComponent},
   {path: 'fundme', component: FundmeComponent},
   {path: 'home', component: HomeComponent},
   {path: 'fundraisers', component: FundraisersComponent},
-  {path: 'signup/login', component: LoginComponent},
-  {path: 'login/profile', component: ProfileComponent},
+  {path: 'login', component: LoginComponent},
+  {path: 'profile', component: ProfileComponent},
   {path: 'donatenow', component: DonatenowComponent},
-  {path: 'jazzcash', component: JazzcashComponent}
+  {path: 'jazzcash', component: JazzcashComponent},
+  {path: 'fundraisers/details', component: ReqdetailsComponent},
 ];
 
 @NgModule({

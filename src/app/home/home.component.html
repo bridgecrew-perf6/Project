@@ -4,10 +4,10 @@
     <div class="row">
         <h4 class="h-4">Our History</h4>
         <div class="col-sm-4 cube">
-            <h4 class="first">Projects Funded</h4>
+            <h4 class="first">Total Funding</h4>
         </div>
         <div class="col-sm-4 cube">
-            <h4 class="second">Total Donations</h4>
+           <h4 class="second">Total Donations</h4>         
         </div>
         <div class="col-sm-4 cube">
             <h4 class="third">Total Donors</h4>
@@ -37,3 +37,19 @@
 <div class="container">
      <h4 class="h-4">POPULAR FUNDRAISERS</h4>
 </div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 mt-5" *ngFor="let info of information">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src={{info.img}} alt="image" width="50">
+                <div class="card-body">
+                    <h3>{{info.id}}</h3>
+                    <h5>{{info.name}}</h5>
+                    <h6>{{info.city}}</h6>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+    

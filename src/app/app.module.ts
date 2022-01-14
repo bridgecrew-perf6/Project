@@ -11,6 +11,9 @@ import { FundraisersComponent } from './fundraisers/fundraisers.component';
 import { ProfileComponent } from './profile/profile.component';
 import { DonatenowComponent } from './donatenow/donatenow.component';
 import { JazzcashComponent } from './jazzcash/jazzcash.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { ReqdetailsComponent } from './reqdetails/reqdetails.component';
 
 @NgModule({
   declarations: [
@@ -22,11 +25,14 @@ import { JazzcashComponent } from './jazzcash/jazzcash.component';
     FundraisersComponent,
     ProfileComponent,
     DonatenowComponent,
-    JazzcashComponent
+    JazzcashComponent,
+    ReqdetailsComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

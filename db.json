@@ -1,0 +1,55 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "signUpUsers": [
+    {
+      "fullname": "Usman Mustafa",
+      "mobile": 12345677,
+      "email": "u@gmail.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "fullname": "Mehwish",
+      "mobile": 9876,
+      "email": "m@gmail.com",
+      "password": "321",
+      "id": 2
+    },
+    {
+      "fullname": "Bilal Mustafa",
+      "mobile": 35678994,
+      "email": "b@gmail.com",
+      "password": "1122",
+      "id": 3
+    },
+    {
+      "fullname": "Aizaz",
+      "mobile": 987654321,
+      "email": "a@gmail.com",
+      "password": "345",
+      "id": 4
+    }
+  ],
+  "fundreqs": [
+    {
+      "title": "Air University",
+      "amount": 15000,
+      "description": "Urgent",
+      "image": 2,
+      "days": 10,
+      "number": 987654321,
+      "address": "abcdef12",
+      "refId": 12,
+      "id": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
